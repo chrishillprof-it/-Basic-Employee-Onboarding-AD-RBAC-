@@ -1,0 +1,25 @@
+TICKET RESOLUTION
+
+Ticket Number:
+NMG-0047
+
+Affected User:
+Jane Cooper (jcooper@NMG.com)
+
+Issue Reported:
+Jane Cooper was unable to access HR shared resources. Her desktop policies, mapped drives, and environment also differed from her HR teammates.
+
+Root Cause:
+Investigation found that Jane Cooper's account was incorrectly placed in the Operations OU and was assigned to the Operations-Users security group instead of the HR configuration required for her HR Payroll Specialist role. The incorrect OU placement caused her account to receive the wrong departmental configuration, while the incorrect security-group membership prevented the expected HR access.
+
+Fix Applied:
+Moved Jane Cooper's account from the Operations OU to the HR OU. Removed Jane from Operations-Users and added her to HR-Users so her Active Directory configuration matches her HR role.
+
+Verification:
+Verified that Jane Cooper now appears inside the HR OU. Verified that HR-Users appears in Jane's Member Of list and that Operations-Users was removed. Opened HR-Users and confirmed Jane appears in the group's member list. Screenshots were captured to document the corrected configuration.
+
+Date Resolved:
+September 3, 2026
+
+Resolved By:
+Chris Hill
