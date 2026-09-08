@@ -7,7 +7,7 @@ Northstar Medical Group relied on a third-party MSP that managed identity and ac
 I built a new Active Directory domain for Northstar Medical Group to create a more organized and secure identity and access environment. I designed a clear OU structure for Finance, HR, IT, and Operations so users could be managed consistently by department. I created department-based security groups and implemented a flat RBAC model so access could be assigned based on job role instead of manually on a case-by-case basis. I also provisioned user accounts using consistent naming conventions, department attributes, and group assignments to improve accuracy and reduce access errors. This structure strengthened access control, simplified user management, and created a more secure and auditable onboarding process. I also simulated a mock ticket where a user was provisioned the incorrect level of access! 
 
 ## Video Walkthrough
-[Add your video walkthrough link placeholder here. ]
+[https://www.loom.com/share/b54ec916c2aa47deb4110b86a31cda37 ]
 
 ## Tools Used
 * Windows Server
