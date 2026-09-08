@@ -1,10 +1,10 @@
 # Basic Employee Onboarding (AD)(RBAC)
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
+Northstar Medical Group relied on a third-party MSP that managed identity and access in an inconsistent, largely manual way as the company grew. The Active Directory environment lacked a clear organizational structure, standardized user provisioning, and role-based access controls, which led to inconsistent permissions and difficult account management. Because access was often assigned manually and without a standardized process, the organization had limited visibility into who had access to sensitive systems and data. This created operational inefficiencies, increased the risk of excessive or inappropriate access, and introduced potential HIPAA compliance concerns.
 
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+I built a new Active Directory domain for Northstar Medical Group to create a more organized and secure identity and access environment. I designed a clear OU structure for Finance, HR, IT, and Operations so users could be managed consistently by department. I created department-based security groups and implemented a flat RBAC model so access could be assigned based on job role instead of manually on a case-by-case basis. I also provisioned user accounts using consistent naming conventions, department attributes, and group assignments to improve accuracy and reduce access errors. This structure strengthened access control, simplified user management, and created a more secure and auditable onboarding process.
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
